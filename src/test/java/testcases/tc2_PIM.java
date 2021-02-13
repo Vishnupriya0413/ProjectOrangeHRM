@@ -53,9 +53,9 @@ public class tc2_PIM {
          add.click();
          Thread.sleep(2000);
          WebElement firstname=driver.findElement(By.xpath("//*[@id=\"firstName\"]"));
-         firstname.sendKeys("VISHNU");
+         firstname.sendKeys("VishnuPriya");
          WebElement lastname=driver.findElement(By.xpath("//*[@id=\"lastName\"]"));
-         lastname.sendKeys("PRIYA");
+         lastname.sendKeys("J P");
          WebElement employeeID=driver.findElement(By.xpath("//*[@id=\"employeeId\"]"));
          employeeID.sendKeys("123");
          
@@ -63,7 +63,7 @@ public class tc2_PIM {
          checkbox.click();
          
          WebElement username1 = driver.findElement(By.name("user_name"));
-         username1.sendKeys("vishnu@1234");
+         username1.sendKeys("Vishnupriya@1234");
          
          WebElement password1 = driver.findElement(By.name("user_password"));
          password1.sendKeys("$8106243172Ch");
