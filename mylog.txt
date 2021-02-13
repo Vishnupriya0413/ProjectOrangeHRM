@@ -1,0 +1,12 @@
+INFO - user enters valid user name and password, system displays home page
+FATAL - user enters invalid credentials, system displays invalid credentials
+FATAL - user didn't enter any details in user name and password and performed login, system displays user name cannot be empty
+INFO - performing add function in PIM, system displays add employee details page
+INFO - user adds new employee details,system saves the entered details
+INFO - user enters employee name and perform search,system displays the details
+FATAL - user enters new employee name and perform search, system displays no records found
+INFO - user adds candidates details and saves the information,system displays successfully saved
+INFO - user performs edit function to edit the details,system enables the text field to edit text
+INFO - user enters the details in personal details tab and performs save operation
+INFO - performing save operation in personal details tab after editing,system saves the personal details
+INFO - user performs logout,system displays the login page
